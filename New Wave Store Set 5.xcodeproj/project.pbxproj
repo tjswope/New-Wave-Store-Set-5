@@ -11,6 +11,7 @@
 		09D6F8592927FEC1009F4573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6F8582927FEC1009F4573 /* ContentView.swift */; };
 		09D6F85B2927FEC2009F4573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D6F85A2927FEC2009F4573 /* Assets.xcassets */; };
 		09D6F85E2927FEC2009F4573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D6F85D2927FEC2009F4573 /* Preview Assets.xcassets */; };
+		09D6F8652928060C009F4573 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6F8642928060C009F4573 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		09D6F8582927FEC1009F4573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09D6F85A2927FEC2009F4573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D6F85D2927FEC2009F4573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09D6F8642928060C009F4573 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		09D6F8552927FEC1009F4573 /* New Wave Store Set 5 */ = {
 			isa = PBXGroup;
 			children = (
+				09D6F86729280724009F4573 /* Model */,
+				09D6F86629280712009F4573 /* Views */,
 				09D6F8562927FEC1009F4573 /* New_Wave_Store_Set_5App.swift */,
-				09D6F8582927FEC1009F4573 /* ContentView.swift */,
-				09D6F85A2927FEC2009F4573 /* Assets.xcassets */,
 				09D6F85C2927FEC2009F4573 /* Preview Content */,
+				09D6F85A2927FEC2009F4573 /* Assets.xcassets */,
 			);
 			path = "New Wave Store Set 5";
 			sourceTree = "<group>";
@@ -65,6 +68,22 @@
 				09D6F85D2927FEC2009F4573 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09D6F86629280712009F4573 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09D6F8582927FEC1009F4573 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09D6F86729280724009F4573 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09D6F8642928060C009F4573 /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				09D6F8592927FEC1009F4573 /* ContentView.swift in Sources */,
 				09D6F8572927FEC1009F4573 /* New_Wave_Store_Set_5App.swift in Sources */,
+				09D6F8652928060C009F4573 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
