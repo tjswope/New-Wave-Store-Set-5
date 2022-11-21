@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0945A85D292C02A500FFF75E /* ProdcutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945A85C292C02A500FFF75E /* ProdcutList.swift */; };
+		0945A85F292C059600FFF75E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945A85E292C059600FFF75E /* Constants.swift */; };
+		0945A861292C0A0500FFF75E /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945A860292C0A0500FFF75E /* ProductListView.swift */; };
 		09D6F8572927FEC1009F4573 /* New_Wave_Store_Set_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6F8562927FEC1009F4573 /* New_Wave_Store_Set_5App.swift */; };
 		09D6F8592927FEC1009F4573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6F8582927FEC1009F4573 /* ContentView.swift */; };
 		09D6F85B2927FEC2009F4573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D6F85A2927FEC2009F4573 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0945A85C292C02A500FFF75E /* ProdcutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdcutList.swift; sourceTree = "<group>"; };
+		0945A85E292C059600FFF75E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0945A860292C0A0500FFF75E /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		09D6F8532927FEC1009F4573 /* New Wave Store Set 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Store Set 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D6F8562927FEC1009F4573 /* New_Wave_Store_Set_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Store_Set_5App.swift; sourceTree = "<group>"; };
 		09D6F8582927FEC1009F4573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				09D6F8582927FEC1009F4573 /* ContentView.swift */,
+				0945A860292C0A0500FFF75E /* ProductListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				09D6F8642928060C009F4573 /* Product.swift */,
+				0945A85C292C02A500FFF75E /* ProdcutList.swift */,
+				0945A85E292C059600FFF75E /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D6F8592927FEC1009F4573 /* ContentView.swift in Sources */,
+				0945A85D292C02A500FFF75E /* ProdcutList.swift in Sources */,
+				0945A861292C0A0500FFF75E /* ProductListView.swift in Sources */,
+				0945A85F292C059600FFF75E /* Constants.swift in Sources */,
 				09D6F8572927FEC1009F4573 /* New_Wave_Store_Set_5App.swift in Sources */,
 				09D6F8652928060C009F4573 /* Product.swift in Sources */,
 			);
